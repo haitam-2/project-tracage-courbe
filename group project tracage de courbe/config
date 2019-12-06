@@ -1,7 +1,0 @@
-set terminal X11
-set size 0.8,0.8
-set nokey
-
-set parametric
-plot "lorenz.dat" u 2:3:4
-pause -1 "Faire retour"
